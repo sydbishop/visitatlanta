@@ -1,0 +1,183 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* all links except navigation */
+#container a {
+    color: #ED1C24;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+#header {
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 150px;
+    background-size: 100%;
+}
+
+
+/* navigation area */
+#navbar {
+    height: 40px;
+    background-color: #ED1C24;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex;
+}
+
+main {
+    background-color: white;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+}
+
+footer {
+    background-color: white;
+    /* background color for footer */
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    /* this centers the footer text */
+}
+
+h1,
+h2,
+h3 {
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+strong {
+    /* this styles bold text */
+    color: #ED1C24;
+}
+
+iframe {
+    /* youtube video, event calendar */
+   display: block;
+   margin: auto;
+   border:none;
+}
+
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+  /* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+  
+  /* Style the submit button */
+input[type=submit] {
+    background-color: #ED1C24;
+    color: white;
+    border: none;
+}
+  
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* Trasit Page Starts Here */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+/* Styles the image within a menu item */
+.menuImage {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#email {
+    text-align: center;
+    padding-top: 30px;
+}

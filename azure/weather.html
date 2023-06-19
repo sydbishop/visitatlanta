@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Visit Atlanta</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="headerArea">
+                <div id="header"><img src="logo.png" alt="Visit Atlanta" class="center"></div>                
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="weather.html">Weather</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="things_to_do.html">Things To Do</a></li>
+                        <li><a href="places_to_stay.html">Places To Stay</a></li>
+                        <li><a href="transit.html">Transit</a></li>
+                        <li><a href="signup.html">Sign Up For Our Newsletter</a></li>
+                    </ul>
+                </nav>
+            </div>
+        
+            <div id="flex">
+                <main>
+                    <h2>Current Conditions</h2>
+                        <a class="weatherwidget-io" href="https://forecast7.com/en/33d75n84d39/atlanta/?unit=us" data-label_1="ATLANTA" data-label_2="CURRENT CONDITIONS" data-mode="Current" data-theme="weather_one" >ATLANTA CURRENT CONDITIONS</a>
+                            <script>
+                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                            </script><br>
+                    <h2>7-Day Forecast</h2>
+                        <a class="weatherwidget-io" href="https://forecast7.com/en/33d75n84d39/atlanta/?unit=us" data-label_1="ATLANTA" data-label_2="7-DAY FORECAST" data-mode="Forecast" data-theme="weather_one" >ATLANTA 7-DAY FORECAST</a>
+                            <script>
+                            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                            </script><br>
+                </main>
+                
+            </div>
+            <footer id="footer">VisitAtlanta, 2023</footer>
+        </div>
+    </body>
+</html>
